@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ecommerce de Ropa</title>
+  <title>Carrito de Compras</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -18,21 +18,13 @@
     </nav>
   </header>
   
-  <div class="filtros">
-    <input type="text" id="filtroNombre" placeholder="Filtrar por nombre">
-    <select id="filtroCategoria">
-      <option value="">Todas las categorías</option>
-      <option value="Camisetas">Camisetas</option>
-      <option value="Pantalones">Pantalones</option>
-      <option value="Vestidos">Vestidos</option>
-      <option value="Cámporas">Cámporas</option>
-      <option value="Camisas">Camisas</option>
-      <option value="Faldas">Faldas</option>
-    </select>
-    <button id="btnFiltrar">Filtrar</button>
+  <div class="carrito">
+    <h2>Carrito</h2>
+    <ul id="carrito-items"></ul>
+    <p>Total: <span id="totalCarrito">0</span></p>
+    <button id="finalizarCompra">Finalizar Compra</button>
   </div>
-  <div class="productos-container"></div>
 
-  <script type="module" src="./js/script.js"></script>
+  <script type="module" src="./js/carrito.js"></script>
 </body>
 </html>

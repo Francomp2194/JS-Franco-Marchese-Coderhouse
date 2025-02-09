@@ -1,0 +1,8 @@
+[
+  {"id":1,"nombre":"Camiseta Blanca","precio":2000,"imagen":"./img/camiseta.jpg","categoria":"Camisetas"},
+  {"id":2,"nombre":"Pantalón Vaquero","precio":3000,"imagen":"./img/vaquero.jpg","categoria":"Pantalones"},
+  {"id":3,"nombre":"Vestido Floral","precio":4500,"imagen":"./img/vestido floral.jpg","categoria":"Vestidos"},
+  {"id":4,"nombre":"Campera de Cuero","precio":5500,"imagen":"./img/campera de cuero.jpg","categoria":"Cámporas"},
+  {"id":5,"nombre":"Camisa a Cuadros","precio":2500,"imagen":"./img/camisa a cuadros.jpg","categoria":"Camisas"},
+  {"id":6,"nombre":"Falda Larga","precio":3000,"imagen":"./img/falda larga.jpg","categoria":"Faldas"}
+]
